@@ -1,0 +1,117 @@
+/* FLEETING NOTES */
+span[data-ref="Fleeting Notes"] {
+  background: #fff;
+  color: #000;
+  padding: 2px 5px;
+  font-size: 14px;
+  line-height: 1em;
+  font-weight: 500;
+  border-radius: 5px;
+  border: thin solid #D3D3D3; /* Light grey border */
+  position: relative;
+  box-shadow: 0px 1px 3px -1px #000000, 0px -1px 5px #DFDFDF;
+}
+
+/* LITERATURE NOTES */
+span[data-ref="Literature Notes"] {
+  background: #fff;
+  color: #000;
+  padding: 2px 5px;
+  font-size: 14px;
+  line-height: 1em;
+  font-weight: 500;
+  border-radius: 5px;
+  border: thin solid #D3D3D3; /* Light grey border */
+  position: relative;
+  box-shadow: 0px 1px 3px -1px #000000, 0px -1px 5px #DFDFDF;
+}
+
+/* REFERENCE NOTES */
+span[data-ref="Reference Notes"] { 
+  background: #fff;
+  color: #000;
+  padding: 2px 5px;
+  font-size: 14px;
+  line-height: 1em;
+  font-weight: 500;
+  border-radius: 5px;
+  border: thin solid #D3D3D3; /* Light grey border */
+  position: relative;
+  box-shadow: 0px 1px 3px -1px #000000, 0px -1px 5px #DFDFDF;
+}
+
+/* PERMANENT NOTES */
+span[data-ref="Permanent Notes"] {
+  background-image: linear-gradient(90deg, #1DA1F2, #1DA1F2);
+  color: #fff; /* White text color */
+  padding: 2px 5px;
+  font-size: 15px;
+  line-height: 1em;
+  font-weight: 500;
+  border-radius: 3px 0 0 3px;
+  position: relative;
+  box-shadow: 0px 1px 3px -1px #000000, 0px -1px 5px #DFDFDF;
+}
+
+span[data-ref="Permanent Notes"] + span[data-link-title] { 
+  background: #1DA1F21E !important;
+  color: #F5F8FA !important;
+  padding: 3px 5px 3px 15px;
+  font-size: 15px;
+  line-height: 1em;
+  font-weight: 400;
+  border-radius: 0 3px 3px 0;
+  margin-left: -5px;
+}
+
+span[data-ref="Permanent Notes"]:after,
+span[data-ref="Permanent Notes"]:before {
+  left: 100%;
+  top: 50%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+}
+
+span[data-ref="Permanent Notes"]:after {
+  border-color: rgba(255,255,255,0);
+  border-left-color: #1DA1F2;
+  border-width: 10px;
+  margin-top: -10px;
+}
+
+span[data-ref="Permanent Notes"]:before {
+  border-color: rgba(255,255,255,0);
+  border-left-color: #1DA1F2;
+  border-width: 10px;
+  margin-top: -10px;
+}
+
+/* RELEVANT NOTES */
+span[data-ref="Relevant Notes"] {
+  background: white;
+  color: #1DA1F2;
+  padding: 2px 5px;
+  font-size: 14px;
+  line-height: 1em;
+  font-weight: 500;
+  border-radius: 5px;
+  border: thin solid #D3D3D3; /* Light grey border */
+  position: relative;
+  box-shadow: 0px 1px 3px -1px #000000, 0px -1px 5px #DFDFDF;
+}
+
+span[data-ref="Relevant Notes"] + span[data-link-title] {
+  background: #1DA1F210 !important;
+  color: #F3F7F2 !important;
+  padding: 3px 5px 3px 8px;
+  font-size: 14px;
+  line-height: 1em;
+  font-weight: 400;
+  border-radius: 0px 5px 5px 0px;
+  margin-left: -8px; 
+  box-shadow: inset -1px 1px 5px #AAAAAA63, inset 1px -1px 3px #F6F6F6;
+}
